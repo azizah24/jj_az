@@ -1,0 +1,30 @@
+{
+  "status": "200",
+  "message": "data found",
+  "data": [
+    {
+      "id": "89",
+      "name": "Soy Coffee Latte",
+      "price": "35000",
+      "img": "https://b.zmtcdn.com/data/pictures/chains/1/18731481/3a741e828cd351fa633dc7d56593aef1.jpg"
+    },
+    {
+      "id": "99",
+      "name": "Es Kopi Alpokat",
+      "price": "27500",
+      "img": "https://b.zmtcdn.com/data/pictures/chains/1/18731481/e06134cbbd6a05a165f530b4533064f0.jpg"
+    },
+    {
+      "id": "109",
+      "name": "Cocopresso",
+      "price": "28500",
+      "img": "https://b.zmtcdn.com/data/pictures/chains/1/18731481/d60a7f41de179c18cbec5e9250c9d322.jpg"
+    },
+    {
+      "id": "929",
+      "name": "Ice Latte",
+      "price": "23500",
+      "img": "https://b.zmtcdn.com/data/pictures/chains/1/18731481/efc37fe22dc6642d395026ca6787299f.jpg"
+    }
+  ]
+}
