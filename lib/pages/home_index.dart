@@ -32,7 +32,7 @@ class _IndexHomePageState extends State<IndexHomePage> {
     modelProduk = await KoneksiJson().getProduk();
     setState(() {
       loading = false;
-      nav = [HomePage(), ProdukPage(modelProduk)];
+      nav = [HomePage(), ProdukPage(modelProduk), ProdukPage(modelProduk)];
     });
   }
 
@@ -63,26 +63,32 @@ class _IndexHomePageState extends State<IndexHomePage> {
           child: BottomNavigationBar(
             selectedItemColor: secondary200,
             selectedFontSize: 0,
+            unselectedItemColor: Colors.grey,
             backgroundColor: secondary100,
             elevation: 0,
+            currentIndex: posisinav as int,
+            type: BottomNavigationBarType.fixed,
             items: [
               BottomNavigationBarItem(
                   icon: Icon(
                     Icons.home,
                     size: 30,
                   ),
+                  backgroundColor: Colors.white,
                   label: ''),
               BottomNavigationBarItem(
                   icon: Icon(
                     Icons.local_drink,
                     size: 30,
                   ),
+                  backgroundColor: Colors.white,
                   label: ''),
               BottomNavigationBarItem(
                   icon: Icon(
                     Icons.history_outlined,
                     size: 30,
                   ),
+                  backgroundColor: Colors.white,
                   label: ''),
             ],
             onTap: (index) {
