@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_jj/pages/home_index.dart';
 import 'package:test_jj/pages/home_page.dart';
 import 'package:test_jj/theme.dart';
 
@@ -31,7 +32,7 @@ class _StartedPageState extends State<StartedPage> {
               GestureDetector(
                 onTap: () {
                   Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => HomePage()));
+                      MaterialPageRoute(builder: (context) => IndexHomePage()));
                 },
                 child: Container(
                   width: MediaQuery.of(context).size.width * 0.6,
